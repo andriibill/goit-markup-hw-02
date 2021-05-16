@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   width: 1200px;
   position: center;
+  margin: 0 auto 0 auto;
 }
 
 /* Header menu section */
@@ -9,6 +10,7 @@ body {
 header {
   margin-left: 200;
   margin-right: 200;
+  flex-direction: column;
 }
 
 .logo {
@@ -17,26 +19,48 @@ header {
   font-weight: bold;
   font-size: 26px;
   letter-spacing: 0.03em;
+}
+
+.logo-web {
   color: #2196f3;
-}
-
-.logo-studio {
-  color: black;
-}
-
-main {
-  background-color: burlywood;
 }
 
 /* Slider section */
 
-.slider {
+.slider-section {
   background-color: #2f303a;
-  color: white;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
   height: 600px;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+h1 {
+  width: 900px;
+}
+
+.button {
+  border-style: none;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 32px 10px 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 footer {
-  background-color: cornsilk;
+  background-color: #2f303a;
+  color: white;
 }

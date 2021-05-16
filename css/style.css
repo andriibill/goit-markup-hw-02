@@ -7,10 +7,9 @@ body {
 
 /* Header menu section */
 
-header {
-  margin-left: 200;
-  margin-right: 200;
-  flex-direction: column;
+.header-section {
+  border: 1px;
+  border-color: grey;
 }
 
 .logo {

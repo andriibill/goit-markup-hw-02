@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header menu section */
+
+header {
+  background-color: bisque;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
+span .logo {
+  color: #2196f3;
+}
+
+main {
+  background-color: burlywood;
+}
+
+/* Slider section */
+
+.slider {
+  background-color: #2f303a;
+  color: white;
+  text-align: center;
+  height: 600px;
+}
+
+footer {
+  background-color: cornsilk;
+}

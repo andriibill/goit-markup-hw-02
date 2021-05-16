@@ -1,15 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 1200px;
-  position: center;
   margin: 0 auto 0 auto;
 }
 
 /* Header menu section */
 
 .header-section {
-  border: 1px;
-  border-color: grey;
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
 }
 
 .logo {
@@ -18,10 +23,37 @@ body {
   font-weight: bold;
   font-size: 26px;
   letter-spacing: 0.03em;
+  margin-right: 50px;
 }
 
 .logo-web {
   color: #2196f3;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 0 25px 0 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contacts-header {
+  display: flex;
+  list-style: none;
+}
+
+.contacts-item-header {
+  margin: 0 0 0 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
 }
 
 /* Slider section */
@@ -32,14 +64,11 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   height: 600px;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 h1 {
@@ -54,12 +83,63 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
 
-footer {
+/* Advantages section */
+
+.advantages-section {
+  width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+/*
+.advatages-h2 {
+  display: none;
+}
+*/
+
+.advantages-list {
+  display: flex;
+  list-style: none;
+}
+
+/* What we do section */
+
+.what-we-do-section {
+  width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+.what-we-do-list {
+  display: flex;
+  list-style: none;
+}
+
+/* Team section */
+
+.team-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+  width: 1200px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+/* Footer section */
+
+.footer {
   background-color: #2f303a;
   color: white;
+  margin: 0;
+}
+
+.footer-contacts {
+  list-style: none;
 }

@@ -1,7 +1,9 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0 auto 0 auto;
 }
+
+/* Studio Page */
 
 /* Header menu section */
 
@@ -18,7 +20,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -137,9 +139,23 @@ h1 {
 .footer {
   background-color: #2f303a;
   color: white;
-  margin: 0;
 }
 
 .footer-contacts {
   list-style: none;
+}
+
+/* Portfolio Page */
+
+.tabs-row {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.cases-grid {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
 }

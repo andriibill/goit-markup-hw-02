@@ -153,6 +153,10 @@ h1 {
   flex-direction: row;
 }
 
+.tab-item {
+  cursor: pointer;
+}
+
 .cases-grid {
   list-style: none;
   display: flex;

@@ -12,7 +12,6 @@ body {
   margin: 0 auto 0 auto;
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 .navbar {
@@ -26,6 +25,7 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   margin-right: 50px;
+  line-height: 2;
 }
 
 .logo-web {
@@ -48,6 +48,7 @@ body {
 .contacts-header {
   display: flex;
   list-style: none;
+  margin-left: 280px;
 }
 
 .contacts-item-header {
@@ -56,11 +57,12 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
+  text-align: right;
 }
 
 /* Slider section */
 
-.slider-section {
+.hero-section {
   background-color: #2f303a;
   font-style: normal;
   font-weight: 900;
@@ -69,12 +71,13 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  height: 600px;
-  align-items: center;
+  text-align: center;
+  padding: 210px 0 210px 0;
 }
 
-h1 {
+.hero-h1 {
   width: 900px;
+  margin: auto;
 }
 
 .button {
@@ -142,7 +145,14 @@ h1 {
 }
 
 .footer-contacts {
+  text-decoration: none;
+}
+.footer-contacts-list {
   list-style: none;
+}
+
+.footer-contact-item {
+  text-decoration: none;
 }
 
 /* Portfolio Page */

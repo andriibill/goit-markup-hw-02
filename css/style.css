@@ -20,7 +20,6 @@ body {
 
 .link:hover,
 .link:focus,
-.link:active,
 .link-op:hover,
 .active {
   color: var(--prety-color);

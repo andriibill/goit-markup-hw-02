@@ -157,6 +157,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  cursor: pointer;
 }
 
 /* Advantages section */

@@ -10,11 +10,15 @@ body {
   --black-color: #212121;
   --white-color: #fff;
   --grey-color: #757575;
+  --background-color-dark: #2f303a;
+  --background-color-light: #f5f4fa;
+  --border-color: #eeeeee;
 }
 
 /* H2 title */
 
-.h2-title {
+.section-title,
+.advatages-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -128,12 +132,12 @@ body {
 /* Slider section */
 
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--background-color-dark);
   text-align: center;
   padding: 210px 0 210px 0;
 }
 
-.hero-h1 {
+.hero-title {
   width: 900px;
   margin: auto;
   font-style: normal;
@@ -167,7 +171,7 @@ body {
   margin: 0 auto 0 auto;
 }
 
-.advatages-h2 {
+.advatages-title {
   display: none;
 }
 
@@ -176,7 +180,7 @@ body {
   list-style: none;
 }
 
-.advatages-h3 {
+.advatages-item-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -186,7 +190,7 @@ body {
   color: var(--black-color);
 }
 
-.advatages-h3-description {
+.advatages-item-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -216,7 +220,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto 0 auto;
-  background-color: #f5f4fa;
+  background-color: var(--background-color-light);
 }
 
 .team-list {
@@ -260,8 +264,8 @@ body {
 
 /* Footer section */
 
-.footer {
-  background-color: #2f303a;
+.footer-section {
+  background-color: var(--background-color-dark);
   color: var(--white-color);
 }
 
@@ -305,7 +309,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-color);
-  background-color: rgba(245, 244, 250, 1);
+  background-color: var(--background-color-light);
+  opacity: 1;
   border: none;
   margin: 0 4px 0 4px;
   padding: 8px 22px 8px 22px;
@@ -327,14 +332,14 @@ body {
 }
 
 .cases-item {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: var(--white-color);
+  border: 1px solid var(--border-color);
   box-sizing: border-box;
   width: 370px;
   margin: 15px 15px 15px 15px;
 }
 
-.case-h2 {
+.case-title {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -343,7 +348,7 @@ body {
   color: var(--black-color);
 }
 
-.case-h3 {
+.case-type {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

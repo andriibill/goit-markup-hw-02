@@ -9,7 +9,7 @@ body {
   --prety-color: #2196f3;
   --black-color: #212121;
   --white-color: #fff;
-  --grey-color: #757575;
+  --middle-grey-color: #757575;
   --background-color-dark: #2f303a;
   --background-color-light: #f5f4fa;
   --border-color: #eeeeee;
@@ -114,7 +114,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  color: var(--grey-color);
+  color: var(--middle-grey-color);
   text-align: right;
 }
 

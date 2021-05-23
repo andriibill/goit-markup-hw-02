@@ -13,6 +13,7 @@ body {
   --background-color-dark: #2f303a;
   --background-color-light: #f5f4fa;
   --border-color: #eeeeee;
+  --button-hover-color: #188ce8;
 }
 
 /* H2 title */
@@ -162,6 +163,10 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--button-hover-color);
 }
 
 /* Advantages section */

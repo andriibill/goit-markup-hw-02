@@ -130,7 +130,7 @@ body {
   color: var(--grey-color);
 }
 
-/* Slider section */
+/* Hero section */
 
 .hero-section {
   background-color: var(--background-color-dark);
@@ -306,6 +306,8 @@ body {
 .portfolio-section {
   align-content: center;
   text-align: center;
+  width: 1200px;
+  margin: 0 auto 0 auto;
 }
 
 .tabs-row {

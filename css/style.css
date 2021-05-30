@@ -314,6 +314,8 @@ body {
   list-style: none;
   display: flex;
   margin: 0 auto 0 auto;
+  padding: 0px;
+  justify-content: center;
 }
 
 .tab-list-item {
@@ -348,6 +350,10 @@ body {
 
 .cases-grid {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  justify-content: space-between;
 }
 
 .cases-item {
@@ -355,7 +361,6 @@ body {
   border: 1px solid var(--border-color);
   box-sizing: border-box;
   width: 370px;
-  margin: 15px 15px 15px 15px;
 }
 
 .case-title {
